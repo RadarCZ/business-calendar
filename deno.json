@@ -1,0 +1,17 @@
+{
+  "name": "@radarcz/business-calendar",
+  "version": "0.1.0",
+  "license": "MIT",
+  "imports": {
+    "@types": "./types/index.ts",
+    "@models": "./models/index.ts",
+    "@providers": "./providers/index.ts",
+    "@providers/country": "./providers/country/index.ts",
+    "@systems": "./systems/index.ts",
+    "@utils": "./utils/index.ts"
+  },
+  "exports": "./mod.ts",
+  "compilerOptions": {
+    "lib": ["ESNext"]
+  }
+}
